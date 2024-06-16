@@ -47,14 +47,3 @@ How to run tests for the project.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Authors
-- **John Doe** - *Initial work* - [johndoe](https://github.com/KBAgripa)
-
-## Contact
-For any questions or support, please contact [support@example.com](mailto:support@example.com).
-
-## Changelog
-### v1.0.1
-- Fixed login bug
-- Improved UI responsiveness
