@@ -5,10 +5,7 @@ A website to learn, study, and memorize Morse code. First "sErIoUs" project invo
 
 # Web Pages
 Each web page it contains and their function:
-- Main
-
-# Configuration
-Details on how to configure the project.
+- Main: cover page, show morse code alphabet, show hyperlink for other features
 
 # Features
 Here are the following features DotDash can offer:
