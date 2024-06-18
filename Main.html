@@ -4,12 +4,9 @@
 <html>
     <head>
         <title>DotDash | Learn Morse Code </title>
-        <style></style><!-- MINIMALISTIC? SIMPLE BLACK AND WHITE? black white yellow? VINTAGE?-->
+        <link href="1style.css" rel="stylesheet"><!-- MINIMALISTIC? SIMPLE BLACK AND WHITE? black white yellow? VINTAGE?-->
     </head>
     
-
-
-
 
     <body>
         <header>
@@ -20,7 +17,7 @@
         </header>
 
 
-        <div>
+        <div id="cover">
             <!-- LOGO DOTDASH, HOME, ETC. apply morse code sound of the word "dotdash"-->
             <h1>DotDash</h1>
             <!-- add animation where the morse code will appear under the main text-->
@@ -38,13 +35,17 @@
 
         <div>
             <h2>Who invented Morse Code</h2>
-            <img> <!-- image of samuel morse and alfred vail -->
+            <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Samuel_Morse.jpg" alt="Samuel Morse" width="300"><figcaption><em>Samuel Morse</em></figcaption></figure>
+            <figure><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Alfred_Vail.jpg" alt="Alfred Vail" width="300"><figcaption><em>Alfred Vail</em></figcaption></figure>
+
+            <!-- image of samuel morse and alfred vail -->
             <p><strong>Samuel Morse</strong>. A well-known painter and keen amateur inventor, Samuel Morse came up with the idea for an electric telegraph when he heard about electromagnetism on a voyage from France to New York in 1832. But it was <strong>Alfred Vail</strong>, a friend from New York University, who deserves much of the credit for what came next. Vail also simplified Morse’s awkward lookup system, using shorter codes for commonly used letters. The resulting system was much better; it did not require printing and instead could be ‘sound read’. (Source: <a href="https://www.historyextra.com/period/victorian/qa-samuel-morse-invented-the-morse-code/" target="_blank">History Extra</a>)</p>
         </div>
 
         <div>
             <h2>What is Morse Code</h2>
-            <p>Morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs. Morse code is named after Samuel Morse, one of the early developers of the system adopted for electrical telegraphy.(Source: <a href="https://en.wikipedia.org/wiki/Morse_code" target="_blank">Wikipedia</a>) Morse code was later adapted to wireless radio. By the 1930s it was the preferred form of communication for aviators and seamen, and it was vital during the Second World War. (Source:<a href="https://www.historyextra.com/period/victorian/qa-samuel-morse-invented-the-morse-code/" target="_blank">History Extra</a>)</p>
+            <p>Morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs. Morse code is named after Samuel Morse, one of the early developers of the system adopted for electrical telegraphy. (Source: <a href="https://en.wikipedia.org/wiki/Morse_code" target="_blank">Wikipedia</a>) Morse code was later adapted to wireless radio. By the 1930s it was the preferred form of communication for aviators and seamen, and it was vital during the Second World War. (Source: <a href="https://www.historyextra.com/period/victorian/qa-samuel-morse-invented-the-morse-code/" target="_blank">History Extra</a>)</p>
         </div>
 
 
@@ -86,15 +87,31 @@
         </main>
         
         <div>
-            <h2>Survey</h2>
-            <input type="text" name="survey" placeholder="What to improve?" required="">
+            <h2>Survey Form:</h2>
+            <fieldset>
+                <legend>How was the web?</legend>
+                <label><input checked type="radio" name="rate"> Great!</label>
+                <label><input type="radio" name="rate"> Ok.</label>
+                <label><input type="radio" name="rate"> Sucks!</label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose which to improve</legend> 
+                <label><input type="checkbox" name="rate">Learning</label>
+                <label><input type="checkbox" name="rate">Quizes</label>
+                <label><input type="checkbox" name="rate">Listening</label>
+                <label><input type="checkbox" name="rate">Other</label>
+            </fieldset>
+            <fieldset>
+                <legend>Offer feedback?</legend>
+                <input type="text" name="survey" placeholder="Comment" required>
+                <button type="submit">Submit</button>
+            </fieldset>
         </div>
 
         <footer>
-
+            <p>@DotDash. All rights reserved. 2024.</p>
         </footer>
     </body>
-    
 </html>
 
 <!-- ADDITIONAL IDEAS
