@@ -1,7 +1,11 @@
-/** DAZED AND 90'S WEBSITE STYLE INSPIRED
-**/
+/* DAZED AND 90'S WEBSITE STYLE INSPIRED
+*/
 
 h1, h2, h3, h4, p, figure {text-align:center;}
 
 body{background-color:white;}
+
+.code {background-size:cover; background-color:white;}
+
+.origin {background-color:#93ff96;}}
 
