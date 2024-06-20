@@ -5,7 +5,7 @@ h1, h2, h3, h4, p, figure {text-align:center;}
 
 body{background-color:white;}
 
-.logo img {align-items: center;}
+.logo img {text-align: center; display:block; margin:auto;}
 
 .code {background-size:cover; background-color:white;}
 
