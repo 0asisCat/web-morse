@@ -10,4 +10,7 @@ body{background-color:white;}
 .cover {background-color:#93ff96;}
 .code {background-size:cover; background-color:white;}
 .origin .what {background-color:#93ff96;}
-.f1{display:inline; text-align:left;}
+.feature{display:inline-block;}
+.f1 {text-align:left;}
+.f2 {text-align:right;}
+
