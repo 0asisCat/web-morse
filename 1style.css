@@ -8,7 +8,9 @@ body{background-color:white;}
 .main{padding-left:2%;padding-right:2%;}
 .logo img {text-align: center; display:block; margin:auto;}
 .cover {background-color:#93ff96;}
-.code {background-size:cover; background-color:white;}
+.code {background-size:cover; background-color:white; display: inline; margin: auto;}
+.A-L {text-align: left;}
+.M-Z {text-align: right;}
 .origin .what {background-color:#93ff96;}
 .title, .text{margin:auto;padding: 20px 20px 20px 20px;}
 .title {padding-bottom:0px;}
