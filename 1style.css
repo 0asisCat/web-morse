@@ -10,7 +10,9 @@ body{background-color:white;}
 .cover {background-color:#93ff96;}
 .code {background-size:cover; background-color:white;}
 .origin .what {background-color:#93ff96;}
-.feature{display:inline-block;}
+.title, .text{margin:auto;padding: 20px 20px 20px 20px;}
+.title {padding-bottom:0px;}
+.feature {display:inline-block; margin:auto; padding-top:50px;}
 .f1 {text-align:left;}
 .f2 {text-align:right;}
 
