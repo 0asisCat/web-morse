@@ -3,15 +3,15 @@
 
 h1, h2, h3, h4, p, figure {text-align:center;}
 
-body{background-color:white;}
+body{background-color:white;font-family:sans-serif;}
 
-.main{padding-left:2%;padding-right:2%;}
+.main{padding:2px 2px 2px 2px;}
 .logo img {text-align: center; display:block; margin:auto;}
 .cover {background-color:#93ff96;}
-.code {background-size:cover; background-color:white; display: inline; margin: auto;}
+.code_bg {background-size:cover; background-color:white; display: inline; margin: auto;}
 .A-L {text-align: left;}
 .M-Z {text-align: left;}
-.origin .what {background-color:#93ff96;}
+.origin .what {background-color:#93ff96; padding: 20px 20px 20px 20px;}
 .title, .text{margin:auto;padding: 20px 20px 20px 20px;}
 .title {padding-bottom:0px;}
 .feature {display:inline-block; margin:auto; padding-top:50px;}
