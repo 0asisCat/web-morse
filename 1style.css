@@ -4,10 +4,11 @@ h1 {font-size:50px;margin-top:0;margin-bottom:0;}
 h2 {font-size:30px;}
 hr {height:2px;background-color:#93ff96;border-color:#93ff96;}
 p {margin:5px 0 0 5px;font-size:18px;}
-a {color:grey;}
-a:visited{color:black;}
+a {color:black;}
+a:visited{color:grey;}
 a:hover{color:#00ff19;}
 a:active{color:#00ff19;}
+img{display:block;margin-left:auto;margin-right:auto;}
 
 body{background-color:white;font-family:sans-serif;padding:20px 20px 20px 20px;}
 
@@ -21,8 +22,8 @@ footer p{font-size:14px;}
 .M-Z {text-align: center;}
 .origin .emphasized {font-style:italic;}
 .origin .what {background-color:#93ff96; padding: 20px 20px 20px 20px; margin-top:25px;}
-.title, .text{margin:auto;padding: 20px 20px 20px 20px;}
-.title {padding-bottom:0px;}
+.title, .text{margin:auto;padding: 20px 20px 20px 20px;margin-top:-15px;margin-bottom:0;}
+.title{padding-bottom:0;margin-bottom:0;}
 .feature {display:inline-block; margin:auto; padding-top:50px;}
 .f1 {text-align:left;}
 .f2 {text-align:right;}
