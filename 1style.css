@@ -21,7 +21,7 @@ nav button{background-color:black;display:inline;color:#00ff19;cursor: pointer;o
 .logo-svg {text-align: center; display:block; margin:auto;position:static;height:100px;margin-bottom:30px;}
 */
 .top-nav{box-sizing:border-box;display:block;}
-header .logo-container{padding:10px;text-align:center;}
+header .logo-container{padding:10px;text-align:center;display: block;}
 header .logo-svg{width:100px;height:100px;overflow:hidden;}
 .logo-container, .logo-svg, .nav-buttons{display:inline-block;}
 
@@ -37,6 +37,7 @@ footer p{font-size:14px;}
 .M-Z {text-align: center;}
 .origin .emphasized {font-style:italic;}
 .origin .what {background-color:#93ff96; padding: 20px 20px 20px 20px; margin-top:25px;}
+.samuel-morse, .alfred-vail{width:300px;box-shadow:15px 15px rgba(0,0,0,85%);margin-bottom: 15px;}
 .title, .text{margin:auto;padding: 20px 20px 20px 20px;margin-top:-15px;margin-bottom:0;}
 .title{padding-bottom:0;margin-bottom:0;display:block;}
 .feature {display:inline-block; margin:auto; padding-top:50px;}
