@@ -4,7 +4,7 @@ h1 {font-size:50px;margin-top:0;margin-bottom:0;}
 h2 {font-size:30px;}
 hr {height:2px;background-color:#93ff96;border-color:#93ff96;}
 p {margin:5px 0 0 5px;font-size:18px;}
-a {color:black;}
+a {color:black;text-decoration: none;}
 a:visited{color:grey;}
 a:hover{color:#00ff19;}
 a:active{color:#00ff19;}
@@ -20,7 +20,10 @@ nav button{background-color:black;display:inline;color:#00ff19;cursor: pointer;o
 .container {display:inline;width:100px;height:100px;margin:auto;z-index:-100;}
 .logo-svg {text-align: center; display:block; margin:auto;position:static;height:100px;margin-bottom:30px;}
 */
-
+.top-nav{box-sizing:border-box;display:block;}
+header .logo-container{padding:10px;text-align:center;display:block;}
+header .main-nav-logo{display:inline-block;}
+header .logo-svg{width:150px;height:150px;overflow:hidden;}
 
 .intro{display:block;margin-top:100px;}
 
