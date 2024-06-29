@@ -26,8 +26,9 @@ footer p{font-size:14px;}
 .main{padding:2px 2px 2px 2px;margin:20px;}
 .cover {background-color:#93ff96;}
 .code_bg {background-size:cover; background-color:white; display: inline; margin: auto;}
-.A-L {text-align: center;}
-.M-Z {text-align: center;}
+.alpha h3{display:inline-block;}
+.A-L {text-align: left;margin:0;width:75%;}
+.M-Z {text-align: right;margin:0;width:40%;}
 .origin .emphasized {font-style:italic;}
 .origin .what {background-color:#93ff96; padding: 20px 20px 20px 20px; margin-top:25px;}
 .samuel-morse, .alfred-vail{width:300px;box-shadow:15px 15px 10px rgba(0,0,0,85%);margin-bottom: 15px;}
