@@ -10,16 +10,13 @@ a:hover{color:#00ff19;}
 a:active{color:#00ff19;}
 img{display:block;margin-left:auto;margin-right:auto;}
 
-body{background-color:white;font-family:sans-serif;margin:0;}z
+body{background-color:white;font-family:sans-serif;margin:0;}
 
-.top-nav{border-bottom:5px solid black;position:fixed;height:300px;}
+.top-nav{border-bottom:1px solid black;height:70px;width:100%;display:block;}
 .main-nav-log{align-items:center;display:flex;overflow:hidden;}
 header .logo-container{padding:10px;text-align:center;display: block;}
 header .logo-svg{width:100px;height:100px;position:absolute;top:-20px;left:45%;display:inline-block;}
 .logo-container, .logo-svg, .nav-buttons{display:inline-block;}
-
-
-.intro{display:block;margin-top:100px;}
 
 footer p{font-size:14px;}
 
