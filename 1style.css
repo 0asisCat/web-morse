@@ -1,9 +1,9 @@
-
+*{box-sizing:border-box;}
 h1, h2, h3, h4, p, figure{text-align:center;}
 h1{font-size:50px;margin-top:0;margin-bottom:0;}
 h2{font-size:30px;}
 h4{font-size:20px;}
-hr{height:2px;background-color:#93ff96;border-color:#93ff96;}
+hr{border:1px solid black;}
 p{margin:5px 0 0 5px;font-size:18px;}
 a{color:black;text-decoration: none;}
 a:visited{color:grey;}
@@ -12,16 +12,16 @@ a:active{color:#00ff19;}
 img{display:block;margin-left:auto;margin-right:auto;}
 
 body{background-color:white;font-family:sans-serif;margin:0;}
-
+/*
 .top-nav{border-bottom:1px solid black;height:70px;width:100%;display:block;padding:0 15px;}
 .main-nav-log{align-items:center;display:flex;overflow:hidden;}
 header .logo-container{padding:10px;text-align:center;display: block;}
 header .logo-svg{width:120px;height:120px;position:absolute;top:-30px;left:45%;display:inline-block;}
 .logo-container, .logo-svg, .nav-buttons{display:inline-block;}
+*/
+footer, p{font-size:14px;margin-top:15px;}
 
-footer p{font-size:14px;}
-
-.main{padding:2px 2px 2px 2px;margin:20px;}
+.main{padding:2px 2px 2px 2px;margin:5px 20px;}
 .cover {background-color:#93ff96;}
 .code_bg {background-size:cover; background-color:white; display: inline; margin: auto;}
 .container{display:flex;justify-content:space-between;}
@@ -29,6 +29,8 @@ footer p{font-size:14px;}
 
 .origin .emphasized {font-style:italic;}
 .origin .what {background-color:#93ff96; padding: 20px 20px 20px 20px; margin-top:25px;}
+
+.images{display:flex;justify-content:center;}
 .samuel-morse, .alfred-vail{width:300px;box-shadow:15px 15px 10px rgba(0,0,0,85%);margin-bottom: 15px;}
 .title, .text{margin:auto;padding: 20px 20px 20px 20px;margin-top:-15px;margin-bottom:0;}
 .title{padding-bottom:0;margin-bottom:0;display:block;}
