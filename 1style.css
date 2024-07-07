@@ -25,7 +25,7 @@ footer p{font-size:14px;}
 .cover {background-color:#93ff96;}
 .code_bg {background-size:cover; background-color:white; display: inline; margin: auto;}
 .container{display:flex;justify-content:space-between;}
-.sym {width:200px;text-align: left;margin:0;}
+.sym {width:300px;text-align: left;margin:0;}
 
 .origin .emphasized {font-style:italic;}
 .origin .what {background-color:#93ff96; padding: 20px 20px 20px 20px; margin-top:25px;}
