@@ -19,15 +19,13 @@ header .logo-container{padding:10px;text-align:center;display: block;}
 header .logo-svg{width:120px;height:120px;position:absolute;top:-30px;left:45%;display:inline-block;}
 .logo-container, .logo-svg, .nav-buttons{display:inline-block;}
 
-
-
 footer p{font-size:14px;}
 
 .main{padding:2px 2px 2px 2px;margin:20px;}
 .cover {background-color:#93ff96;}
 .code_bg {background-size:cover; background-color:white; display: inline; margin: auto;}
 .alpha h3{display:inline-block;}
-.A-L {text-align: left;margin:0;width:75%;}
+.A-L {width:200px;text-align: left;margin:0;justify-content: ;}
 .M-Z {text-align: right;margin:0;width:40%;}
 .origin .emphasized {font-style:italic;}
 .origin .what {background-color:#93ff96; padding: 20px 20px 20px 20px; margin-top:25px;}
