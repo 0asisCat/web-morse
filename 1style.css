@@ -19,13 +19,17 @@ header .logo-container{padding:10px;text-align:center;display: block;}
 header .logo-svg{width:120px;height:120px;position:absolute;top:-30px;left:45%;display:inline-block;}
 .logo-container, .logo-svg, .nav-buttons{display:inline-block;}
 */
+header{background-color: #00ff19;height:100px;width:100%;}
 .top-nav{display:flex;justify-content:space-between;}
-.nav-bittp
+.nav-buttons{display:inline-block;object-fit: cover;}
+#logo-svg{width: max(9rem,9vw);}
 
 footer, p{font-size:14px;margin-top:15px;}
 
 .main{padding:2px 2px 2px 2px;margin:5px 20px;}
-.cover {background-color:#93ff96;}
+.cover {background-color:#050505;}
+.title, .text{margin:auto;padding: 20px 20px 20px 20px;margin-top:-15px;margin-bottom:0;color:white;}
+
 .code_bg {background-size:cover; background-color:white; display: inline; margin: auto;}
 .container{display:flex;justify-content:space-between;}
 .sym {width:300px;text-align: left;margin:0;}
@@ -35,7 +39,7 @@ footer, p{font-size:14px;margin-top:15px;}
 
 .images{display:flex;justify-content:center;}
 .samuel-morse, .alfred-vail{width:300px;box-shadow:15px 15px 10px rgba(0,0,0,85%);margin-bottom: 15px;}
-.title, .text{margin:auto;padding: 20px 20px 20px 20px;margin-top:-15px;margin-bottom:0;}
+
 .title{padding-bottom:0;margin-bottom:0;display:block;}
 .feature {display:inline-block; margin:auto; padding-top:50px;}
 .f1 {text-align:left;}
