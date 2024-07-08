@@ -19,16 +19,16 @@ header .logo-container{padding:10px;text-align:center;display: block;}
 header .logo-svg{width:120px;height:120px;position:absolute;top:-30px;left:45%;display:inline-block;}
 .logo-container, .logo-svg, .nav-buttons{display:inline-block;}
 */
-header{background-color: #00ff19;height:100px;width:100%;}
+
+header, .top-nav{background-color: #00ff19;height:100px;width:100%;}
 .top-nav{display:flex;justify-content:space-between;}
 .nav-buttons{display:inline-block;object-fit: cover;}
-#logo-svg{width: max(9rem,9vw);}
+.logo-container{align-items: center;}
+#logo-svg{width: max(6rem,9vw);}
 
-footer, p{font-size:14px;margin-top:15px;}
-
-.main{padding:2px 2px 2px 2px;margin:5px 20px;}
+.main{padding:5px;margin:5px 20px;display:block;}
 .cover {background-color:#050505;}
-.title, .text{margin:auto;padding: 20px 20px 20px 20px;margin-top:-15px;margin-bottom:0;color:white;}
+.title, .text{margin:auto;padding: 20px;margin-top:-15px;margin-bottom:0;color:white;}
 
 .code_bg {background-size:cover; background-color:white; display: inline; margin: auto;}
 .container{display:flex;justify-content:space-between;}
@@ -45,3 +45,4 @@ footer, p{font-size:14px;margin-top:15px;}
 .f1 {text-align:left;}
 .f2 {text-align:right;}
 
+footer, p{font-size:14px;margin-top:15px;}
