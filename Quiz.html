@@ -61,19 +61,21 @@
                     <h2 id="standard-questions">What In Morse Code</h2>
                     <div class="formrow">
                         <div class="question-block">
-                            <label>Question</label>
+                            <label for="select">Question</label>
                         </div>
                         <div class="answer">
-                            <select required>
+                            <select id="select" name="select" required>
                                 <option value="">Select an option</option>
                                 <option value="yes">Yes</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
                         <div class="question-block">
-                            <label>Question</label>
+                            <label for="text">Question</label>
                         </div>
-                        <div class="answer"></div>
+                        <div class="answer">
+                            <textarea id="text" name="text" rows="5" cols="50" placeholder="Answers"></textarea>
+                        </div>
                     </div>
                 </section>
             </form>
