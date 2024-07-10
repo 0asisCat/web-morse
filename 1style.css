@@ -1,7 +1,7 @@
 *{box-sizing:border-box;}
 h1, h2, h3, h4, p, figure{text-align:center;}
 h1{font-size:50px;margin-top:0;margin-bottom:0;}
-h2{font-size:30px;}
+h2{font-size:30px;border-bottom:4px solid white;}
 h4{font-size:20px;}
 hr{border:1px solid black;}
 p{margin:5px 0 0 5px;font-size:18px;}
