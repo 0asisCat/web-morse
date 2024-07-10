@@ -28,7 +28,7 @@ header, .top-nav{background-color: #00ff19;height:100px;width:100%;position:fixe
 .logo-container{align-items:center;object-fit:cover;}
 #logo-svg{width: max(6rem,6vw);}
 
-.main{padding:120px 5px 5px 5px;margin:5px 20px;display:block;}
+main{padding:120px 5px 5px 5px;margin:5px 20px;display:block;}
 .cover {background-color:#050505;}
 .title, .text{margin:auto;padding: 20px;margin-top:-15px;margin-bottom:0;color:white;}
 
