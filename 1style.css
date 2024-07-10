@@ -22,7 +22,9 @@ header .logo-svg{width:120px;height:120px;position:absolute;top:-30px;left:45%;d
 
 header, .top-nav{background-color: #00ff19;height:100px;width:100%;}
 .top-nav{display:flex;justify-content:space-between;}
-.nav-buttons{display:inline-block;}
+.nav-buttons{display:absolute;align-items: center;}
+.nav-buttons button{background-color: #00ff19;color:#050505;border:none;outline:none;box-shadow:none;padding:5px 10px;font-weight:bolder;}
+.nav-buttons button:hover{background-color: #050505;color: #00ff19;}
 .logo-container{align-items:center;object-fit:cover;}
 #logo-svg{width: max(6rem,6vw);}
 
