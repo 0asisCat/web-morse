@@ -12,14 +12,7 @@ a:active{color:#00ff19;}
 img{display:block;margin-left:auto;margin-right:auto;}
 body{background-color:white;font-family:sans-serif;margin:0;}
 
-/*
-.top-nav{border-bottom:1px solid black;height:70px;width:100%;display:block;padding:0 15px;}
-.main-nav-log{align-items:center;display:flex;overflow:hidden;}
-header .logo-container{padding:10px;text-align:center;display: block;}
-header .logo-svg{width:120px;height:120px;position:absolute;top:-30px;left:45%;display:inline-block;}
-.logo-container, .logo-svg, .nav-buttons{display:inline-block;}
-*/
-
+header{box-shadow: 0 10px 20px black;}
 header, .top-nav{background-color: #00ff19;height:100px;width:100%;position:fixed;margin:0;top:0;}
 .top-nav{display:flex;justify-content:space-between;}
 .nav-buttons{display:absolute;align-items: center;}
@@ -27,6 +20,7 @@ header, .top-nav{background-color: #00ff19;height:100px;width:100%;position:fixe
 .nav-buttons button:hover{background-color: #050505;color: #00ff19;}
 .logo-container{align-items:center;object-fit:cover;}
 #logo-svg{width: max(6rem,6vw);}
+
 
 main{padding:120px 5px 5px 5px;margin:5px 20px;display:block;}
 .cover {background-color:#050505;}
@@ -42,8 +36,13 @@ main{padding:120px 5px 5px 5px;margin:5px 20px;display:block;}
 .what img{margin-bottom:20px;}
 .what .text{color:black;}
 
-.images{display:flex;justify-content:space-evenly;flex-direction:row;flex-wrap:wrap;}
+.images{display:flex;justify-content:center;flex-direction:row;flex-wrap:wrap;}
+.images img{width:100%;max-width:450px;object-fit:cover;height:400px;}
 .samuel-morse, .alfred-vail{width:300px;box-shadow:15px 15px 10px rgba(0,0,0,85%);margin-bottom: 15px;}
+
+.feature{display:flex;justify-content:space-between;flex-direction:row;flex-wrap:wrap;}
+.dotdash_feature{border:1px solid black;padding:30px;max-width:300px;height:200px;margin:5px auto;}
+.dotdash_feature h4{margin:0;}
 
 .title{padding-bottom:0;margin-bottom:0;display:block;}
 .feature {display:inline-block; margin:auto; padding-top:50px;}
@@ -51,6 +50,3 @@ main{padding:120px 5px 5px 5px;margin:5px 20px;display:block;}
 .f2 {text-align:right;}
 
 footer, p{font-size:14px;margin-top:15px;}
-
-/*QUIZ PAGE*/
-.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;}
