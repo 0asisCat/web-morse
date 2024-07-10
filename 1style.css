@@ -1,7 +1,7 @@
 *{box-sizing:border-box;}
-h1, h2, h3, h4, p, figure{text-align:center;}
+h1, h3, h4, p, figure{text-align:center;}
 h1{font-size:50px;margin-top:0;margin-bottom:0;}
-h2{font-size:30px;border-bottom:4px solid white;}
+h2{font-size:30px;background-color:black;color:white;padding:0 5px;}
 h4{font-size:20px;}
 hr{border:1px solid black;}
 p{margin:5px 0 0 5px;font-size:18px;}
@@ -38,9 +38,11 @@ main{padding:120px 5px 5px 5px;margin:5px 20px;display:block;}
 
 .origin .emphasized {font-style:italic;}
 .origin .what {background-color:#00ff19; padding: 20px 20px 20px 20px; margin-top:25px;}
+.what h2{text-align: center;background-color: #00ff19;color:black;}
+.what img{margin-bottom:20px;}
 .what .text{color:black;}
 
-.images{display:flex;justify-content:center;flex-direction:row;flex-wrap:wrap;}
+.images{display:flex;justify-content:space-evenly;flex-direction:row;flex-wrap:wrap;}
 .samuel-morse, .alfred-vail{width:300px;box-shadow:15px 15px 10px rgba(0,0,0,85%);margin-bottom: 15px;}
 
 .title{padding-bottom:0;margin-bottom:0;display:block;}
