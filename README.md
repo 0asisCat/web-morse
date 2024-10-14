@@ -6,6 +6,7 @@ A website to learn, study, and memorize Morse code. First "sErIoUs" project invo
 
 *Note: I am being too ambitious for a beginner, so I will simply create a static home page. ~ 17.6.2024*<br>
 *Note: Having fun. ~ 24.6.24*
+*Note: Missed my old projects lol. ~ 14.10.24*
 
 # Web Pages
 Each web page it contains and their function:
